@@ -1,0 +1,25 @@
+i:hover {
+    transform: scaleX(-1)
+}
+
+/* medium+ screen size */
+@media (min-width:992px) {
+    .desktop-only {
+        display: inline-block !important;
+        color:green;
+    }
+    .mobile-only {
+        display: none;
+    }
+}
+
+@media (max-width:991px) {
+    .mobile-only2 {
+        display: inline-block;
+        color: red;
+    }
+    .desktop-only2 {
+        display: none;
+
+    }
+}
